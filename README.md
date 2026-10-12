@@ -1,51 +1,29 @@
 # SkillForge
 
-**An AI Studio application starter for a skills-focused learning or development workflow.**
+An AI Studio application starter for a skills-focused learning or development workflow.
 
-## Overview
+## Project overview
 
-This repository contains the application source and local development setup. This README is intended to help developers and reviewers understand the project, run it locally, and assess its current scope without overstating unverified capabilities.
+The repository provides application source and a local npm development path. Check the existing screens and source files for the exact learning, skills, or AI interactions available in this version.
 
-## Highlights
-
-- Skills-oriented product interface
-- Local development with npm
-- Gemini configuration for any AI interactions implemented in source
-
-## Technology
-
-Node.js · npm · Gemini API (for configured features)
-
-## Quick start
-
-Prerequisite: a compatible Node.js installation. From a terminal:
+## Getting started
 
 ```bash
- git clone https://github.com/saikishore2410/SkillForge.git
- cd SkillForge
- npm install
-# Add GEMINI_API_KEY to .env.local
-npm run dev
+git clone https://github.com/saikishore2410/SkillForge.git
+cd SkillForge
+npm install
 ```
 
-Configure environment variables locally before launching the app. Use the variable names expected by the current source code, and keep real credentials out of version control.
+Configure environment variables required by the source. If Gemini-powered features are enabled, add the API key in a local `.env.local` file and never commit it. Start the app using scripts declared in `package.json`.
 
-## Build and validation
+## Validation
 
-```bash
-npm run build
-```
+Run the available build, test, and lint commands in `package.json`. Document known limitations and fallback behaviour for missing API configuration.
 
-Run any test or lint scripts defined in `package.json`. Review the source and deployment configuration before treating the application as production-ready.
+## Contributions
 
-## Configuration and limitations
-
-Verify the exact feature set before making product claims. Never commit API keys.
-
-## Contributing
-
-Issues and focused pull requests are welcome. Include reproduction steps for bugs and describe the validation performed for changes.
+Improvements to usability, accessibility, reliability, and project documentation are welcome through focused pull requests.
 
 ## License
 
-No license is specified. Add a `LICENSE` file to define permitted reuse.
+No license is specified. Add a `LICENSE` file before granting reuse rights.
