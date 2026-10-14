@@ -1,47 +1,44 @@
 # SkillForge
 
-## Live Demo / Deployment URL
+[![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github)](https://github.com/kandisaikishore/SkillForge) [![Last Commit](https://img.shields.io/github/last-commit/kandisaikishore/SkillForge)](https://github.com/kandisaikishore/SkillForge/commits/main)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The GitHub repository link is not a deployment URL.
+SkillForge is a skills-development project for organizing learning paths and career-focused practice. It provides a foundation for helping learners identify goals, structure study activities, and track progress where those workflows are implemented.
 
+## Project goals
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/SkillForge) [![Issues](https://img.shields.io/github/issues/saikishore2410/SkillForge)](https://github.com/saikishore2410/SkillForge/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/SkillForge)](https://github.com/saikishore2410/SkillForge/commits/main)
-
-> An AI Studio application starter for a skills-focused learning or development workflow.
-
-## At a glance
-
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
-
-
-
-An AI Studio application starter for a skills-focused learning or development workflow.
-
-## Project overview
-
-The repository provides application source and a local npm development path. Check the existing screens and source files for the exact learning, skills, or AI interactions available in this version.
+- Organize skills and learning goals
+- Make progress and next steps clear
+- Provide a base for learning paths and practice activities
+- Keep guidance relevant, actionable, and easy to maintain
 
 ## Getting started
 
 ```bash
-git clone https://github.com/saikishore2410/SkillForge.git
+git clone https://github.com/kandisaikishore/SkillForge.git
 cd SkillForge
-npm install
 ```
 
-Configure environment variables required by the source. If Gemini-powered features are enabled, add the API key in a local `.env.local` file and never commit it. Start the app using scripts declared in `package.json`.
+Install the runtime and dependencies declared by the project manifests. Follow the configured start command and keep credentials in local environment configuration.
 
-## Validation
+## Validation checklist
 
-Run the available build, test, and lint commands in `package.json`. Document known limitations and fallback behaviour for missing API configuration.
+- Check how learning goals and progress are created and updated
+- Test empty, duplicate, and invalid inputs
+- Verify progress calculations and persistence where applicable
+- Test responsive layout and accessibility
+- Ensure recommendations are transparent and editable by the user
 
-## Contributions
+## Future improvements
 
-Improvements to usability, accessibility, reliability, and project documentation are welcome through focused pull requests.
+- Add structured learning-path documentation
+- Support progress summaries and milestones
+- Provide tests around progress and recommendation rules
+- Document setup, configuration, and deployment
+
+## Contributing
+
+Open issues with reproduction steps and include test or manual-validation results with changes.
 
 ## License
 
-No license is specified. Add a `LICENSE` file before granting reuse rights.
+No license file is currently declared. Add a `LICENSE` file to define reuse terms.
